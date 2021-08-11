@@ -1,0 +1,10 @@
+env
+*.csv
+*.xml
+*.db*
+__pycache__
+*.__pycache__
+.vscode
+
+test.py
+Address Books/
