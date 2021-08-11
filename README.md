@@ -2,14 +2,12 @@
 
 A Python3 tool that I wrote to automate the creation of address books specifically for Kyocera Printers and Scanners. The tool
 does not utilize any special technologies created by Kyocera, this was a small project I put together to make the 
-administration for Kyocera address books less of a pain as whenever users would come and leave the organization, users needed to be added and removed, so
-decided to make the process easier for myself.
+administration for Kyocera address books less of a pain for whenever users would come and leave the organization, users needed to be added and removed, so
+I decided to make the process easier for myself.
 
 ## Prerequistes
 
-You will need a system with python3.6 or higher. No external libraries were used to develop the tool to be entirely self contained.
-to create tool although I highly recommend installing [sqlite3](https://www.sqlite.org/index.html) to your machine to see
-how database is working or if you would add improvements.
+You will need a system with python3.6 or higher. No external libraries were used to develop this tool, I wanted it to be entirely self contained using only libraries within python3. I highly recommend installing [sqlite3](https://www.sqlite.org/index.html) to your machine to see how database is working or if you want add improvements.
 
 ## Usage
 
