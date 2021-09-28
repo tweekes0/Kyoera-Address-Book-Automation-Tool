@@ -1,3 +1,4 @@
+import os
 import helper
 import constants
 
@@ -94,8 +95,8 @@ class Terminal(Cmd):
         print("[?] USAGE: load 'CSV_FILE'\n")
 
     def do_load(self, args):
-        filename = args.split(' ')[0]
-
+        filename = os.path.realpath(args)
+        
         self.db.load_csv(filename)
 
     def help_generate_book(self):

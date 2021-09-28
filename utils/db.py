@@ -215,7 +215,7 @@ class Database:
                     self.insert_user((row["NAME"].title(), row["USERNAME"], row["EMAIL"], row["SMB_PATH"]))
                 print()
         except FileNotFoundError:    
-            print(rf'{filename} not found')
+            print(rf'[-] {filename} not found')
         except KeyError:
             print("[-] File must be a CSV, Check csv column headers.")
             print("[-] Headers should be NAME,USERNAME,EMAIL,SMB_PATH\n")
